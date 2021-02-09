@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+   
+  body {
+    margin: 20px auto;
+    font-family: cursive;
+    font-weight: 300;
+    text-align: center;
+    
+  }
+
+.content{
+    background: blue;
+    width: 100vw;
+	border: 2px solid gray; 
+	border-radius: 20px; 
+    display: flex;
+    margin: 0 auto;
+    height: 100vh;
+    overflow: scroll;
+}
+
+#contacts{
+    width: 20%;
+    background: yellow;
+    float: left;
+    overflow: scroll;
+    text-overflow: clip;
+}
+#contacts > p{
+    font-weight: bold;
+}
+#messages{
+   /* float: left;*/
+    background: white;
+    width: 100%;
+
+}
+.coversations:hover{
+    border: 2px solid black;
+    width: 20%;
+    height: 10%;
+    background: white;
+    overflow: scroll;
+    
+}
+.chat {
+    width: 100px;
+    overflow: scroll;
+}
+.usermsg{
+    background:purple;
+
+}
+.friendmsg{
+    background: red;
+}
+.hidden{
+    display:none;
+}
